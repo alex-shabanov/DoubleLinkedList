@@ -35,9 +35,8 @@ directios - from first node to the last node, or from the last node to the first
 11. getFirst()
 12. getLast()
 13. get(int index)
-
-###Running Instructions
 =======================
+###Running Instructions
 ```
 Application can be launched using Eclipse IDE.
 git fork https://github.com/alex-shabanov/DataStructures.git  
@@ -47,3 +46,6 @@ to create a copy of the porject on local machine where it can then be pushed to 
 Add the DataStructures folder to your Eclipse IDE project workspace.
 ```
 =========================
+###Additional Classes and Files Included.
+1. JUnit Tests
+2. Log4j (Apache Commons)
