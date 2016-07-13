@@ -47,15 +47,4 @@ public class LogFile {
 		String displayMessage = format(object, method, message, exception);
 		getLogger().log(Level.ERROR, displayMessage, exception);
 	}
-	
-	public int divideByZero() throws Exception {
-		int num = 0;
-		try {
-			num = 5 / 0;
-		}
-		catch(Exception e) {
-			severe(this, "divideByZero()", "Divide by zero arithmetic error", e);
-		}
-		return num;
-	}
 }
