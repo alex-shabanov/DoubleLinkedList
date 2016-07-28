@@ -43,6 +43,10 @@ public class Main {
 		
 		System.out.println("List contains? " + String.valueOf(list.contains("Hello World!")));
 		System.out.println("List contains? " + String.valueOf(list.contains("1 2 3")));
+		
+		list.reverse();
+		list.printList();
+		list.printListReverse();
 	}
 
 }

@@ -290,6 +290,20 @@ public class LinkedList<T> {
 		return data;
 	}
 	
+	public void reverse() {
+		if(size == 0) return;
+		Node<T> tempNode = tail;
+		tail = head;
+		head= tempNode;
+		Node<T> currNode = head;
+		while(currNode != null){
+			tempNode = currNode.next;
+			currNode.next = currNode.prev;
+			currNode.prev = tempNode;
+			currNode = currNode.next;
+		}
+	}
+	
 	public void printList(){
 		System.out.println("******************* Printing List **********************");
 		Node<T> tempNode = head;
