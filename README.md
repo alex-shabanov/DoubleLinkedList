@@ -35,6 +35,7 @@ directios - from first node to the last node, or from the last node to the first
 11. getFirst()
 12. getLast()
 13. get(int index)
+14. reverse()
 
 =======================
 ###Running Instructions
